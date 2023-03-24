@@ -1,0 +1,39 @@
+"/Users/admin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/admin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/admin/CLionProjects/pageRank -B /Users/admin/CLionProjects/pageRank/cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - broken
+CMake Error at /Users/admin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/admin/CLionProjects/pageRank/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/Users/admin/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9a27b && [1/2] Building C object CMakeFiles/cmTC_9a27b.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_9a27b.dir/testCCompiler.c.o 
+    /usr/bin/cc    -o CMakeFiles/cmTC_9a27b.dir/testCCompiler.c.o -c /Users/admin/CLionProjects/pageRank/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/admin/CLionProjects/pageRank/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/admin/CLionProjects/pageRank/cmake-build-debug/CMakeFiles/CMakeError.log".
+
+Cannot get compiler information:
+	Cannot run program "/Library/Developer/CommandLineTools/usr/bin/c++" (in directory "/Users/admin/CLionProjects/pageRank/cmake-build-debug"): error=2, No such file or directory
